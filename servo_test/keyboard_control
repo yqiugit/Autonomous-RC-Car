@@ -1,0 +1,21 @@
+
+import time
+from adafruit_servokit import ServoKit                                                                                                                                                   
+
+kit = ServoKit(channels=16)
+
+throttle_pwm=kit.continuous_servo[14]
+SteerServo=kit.servo[15]
+
+SteerServo.set_pulse_width_range(1230,1850)
+throttle_pwm.set_pulse_width_range(1230,2000)
+
+SteerServo.actuation_range=50
+
+speed=0
+actual_angle=0
+center_point=25
+
+throttle_pwm.throttle=speed
+
+time.sleep(3)
