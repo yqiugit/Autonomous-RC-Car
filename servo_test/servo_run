@@ -1,0 +1,53 @@
+"""
+Test Script for RC car servo and throttle control
+Author: Yusen Qiu
+04/06/2025
+"""
+
+
+import time
+from adafruit_servokit import ServoKit                                                                                                                                                   
+
+kit = ServoKit(channels=16)
+
+throttle_pwm=kit.continuous_servo[14]
+SteerServo=kit.servo[15]
+
+SteerServo.set_pulse_width_range(1230,1850)
+throttle_pwm.set_pulse_width_range(1230,2000)
+
+SteerServo.actuation_range=50
+
+speed=0
+actual_angle=0
+center_point=25
+
+throttle_pwm.throttle=speed
+
+time.sleep(3)
+
+SteerServo.angle=actual_angle+center_point
+
+for i in range(100):
+    if (i<25):
+        actual_angle=actual_angle+1
+        speed=speed-0.04
+        SteerServo.angle=actual_angle+center_point
+        time.sleep(0.05)
+    elif (i<75):
+        actual_angle=actual_angle-1
+        speed=speed+0.04
+        SteerServo.angle=actual_angle+center_point
+        time.sleep(0.05)
+    else:
+        actual_angle=actual_angle+1
+        speed=speed-0.04
+        SteerServo.angle=actual_angle+center_point
+        time.sleep(0.05)
+
+    speed=round(speed,2)
+    throttle_pwm.throttle=speed
+
+    print("Steering Angle:",actual_angle)
+    print("Throttle:",speed)
+
