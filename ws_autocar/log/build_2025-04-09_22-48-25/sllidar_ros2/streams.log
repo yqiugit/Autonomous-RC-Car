@@ -1,0 +1,525 @@
+[0.095s] Invoking command in '/home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2
+[1.704s] -- The C compiler identification is GNU 13.3.0
+[3.166s] -- The CXX compiler identification is GNU 13.3.0
+[3.384s] -- Detecting C compiler ABI info
+[4.361s] -- Detecting C compiler ABI info - done
+[4.402s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.407s] -- Detecting C compile features
+[4.410s] -- Detecting C compile features - done
+[4.481s] -- Detecting CXX compiler ABI info
+[5.146s] -- Detecting CXX compiler ABI info - done
+[5.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.187s] -- Detecting CXX compile features
+[5.189s] -- Detecting CXX compile features - done
+[5.482s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.624s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[7.067s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.884s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[8.921s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[9.211s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[9.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.986s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.792s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[10.827s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[11.580s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[11.696s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[11.816s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.479s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[12.903s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[13.770s] -- Configuring done (13.3s)
+[13.880s] -- Generating done (0.1s)
+[13.925s] -- Build files have been written to: /home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2
+[14.027s] Invoked command in '/home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2
+[14.048s] Invoking command in '/home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2 -- -j4 -l4
+[14.514s] [  5%] [32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o[0m
+[14.530s] [ 10%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[14.530s] [ 15%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[14.533s] [ 20%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[18.719s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::[01;32m[Kopen[m[K(const char*, uint32_t, uint32_t)[m[K’:
+[18.724s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.725s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[18.730s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[18.731s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::[01;32m[Kflush[m[K(_u32)[m[K’:
+[18.731s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.733s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[18.734s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[18.735s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::[01;32m[Kwaitforsent[m[K(_u32, size_t*)[m[K’:
+[18.740s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.745s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[18.747s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[18.751s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::[01;32m[Kwaitforrecv[m[K(_u32, size_t*)[m[K’:
+[18.755s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[18.756s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[18.764s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[18.765s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::[01;32m[KcancelOperation[m[K()[m[K’:
+[18.769s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[18.770s]   427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+[18.771s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[18.983s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[18.988s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[18.989s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[18.993s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[18.995s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.999s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[19.001s]       |                [01;35m[K^[m[K
+[19.002s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[19.003s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[19.004s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[19.005s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[19.006s]       |                    [01;35m[K^[m[K
+[19.284s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[19.290s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/sdkcommon.h:41[m[K:
+[19.291s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::[01;32m[KsendTo[m[K(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[19.293s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[19.294s]   733 |             assert([01;35m[Kans == len[m[K);
+[19.296s]       |                    [01;35m[K~~~~^~~~~~[m[K
+[19.714s] [ 25%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[20.930s] [ 30%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/dataunpacker.cpp.o[0m
+[24.041s] [ 35%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_capsules.cpp.o[0m
+[24.780s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[24.782s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[24.786s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[24.787s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+[24.788s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[24.793s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[24.794s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[24.794s]       |                [01;35m[K^[m[K
+[24.795s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[24.799s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[24.800s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[24.802s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[24.803s]       |                    [01;35m[K^[m[K
+[25.535s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.cpp:40[m[K:
+[25.538s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::[01;32m[KonCustomSampleDataDecoded[m[K(_u8, _u32, const void*, size_t)[m[K’:
+[25.545s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.548s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[25.549s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[25.554s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.559s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[25.563s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[25.564s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.572s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[25.573s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[25.579s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.580s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[25.581s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[25.589s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::[01;32m[KonDecodingError[m[K(int, _u8, const void*, size_t)[m[K’:
+[25.590s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.591s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[25.599s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[25.600s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.608s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[25.609s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[25.616s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.618s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[25.626s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[25.627s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[25.635s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[25.636s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[27.758s] [ 40%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp.o[0m
+[28.190s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[28.193s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[28.196s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[28.196s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[28.197s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[28.198s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[28.203s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[28.203s]       |                [01;35m[K^[m[K
+[28.210s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[28.212s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[28.213s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[28.217s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[28.221s]       |                    [01;35m[K^[m[K
+[28.891s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:40[m[K:
+[28.892s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::[01;32m[KonCustomSampleDataDecoded[m[K(_u8, _u32, const void*, size_t)[m[K’:
+[28.893s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.894s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[28.894s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[28.900s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.901s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[28.905s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[28.906s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.907s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[28.908s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[28.913s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.918s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[28.919s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[28.924s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::[01;32m[KonDecodingError[m[K(int, _u8, const void*, size_t)[m[K’:
+[28.925s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.930s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[28.930s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[28.931s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.933s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[28.934s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[28.935s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.935s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[28.941s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[28.942s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[28.943s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[28.943s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[28.958s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:[m[K In member function ‘[01m[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::[01;32m[K_onScanNodeDenseCapsuleData[m[K(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)[m[K’:
+[28.959s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[28.960s]   763 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[28.965s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.005s] [ 45%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o[0m
+[31.424s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[31.436s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[31.437s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[31.439s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[31.440s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[31.441s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[31.441s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[31.451s]       |                [01;35m[K^[m[K
+[31.452s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[31.453s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[31.458s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[31.465s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[31.474s]       |                    [01;35m[K^[m[K
+[32.591s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:40[m[K:
+[32.597s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::[01;32m[KonCustomSampleDataDecoded[m[K(_u8, _u32, const void*, size_t)[m[K’:
+[32.604s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[32.612s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[32.614s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[32.627s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[32.628s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[32.635s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[32.637s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[32.640s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[32.641s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[32.647s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[32.650s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[32.654s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[32.655s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::[01;32m[KonDecodingError[m[K(int, _u8, const void*, size_t)[m[K’:
+[32.659s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[32.661s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[32.668s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[32.670s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[32.672s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[32.673s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[32.678s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[32.682s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[32.685s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[32.686s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[32.691s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[32.692s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[33.809s] [ 50%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[34.442s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[34.442s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[34.446s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[34.447s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+[34.449s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[34.452s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[34.454s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[34.455s]       |                [01;35m[K^[m[K
+[34.463s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[34.463s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[34.464s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[34.480s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[34.481s]       |                    [01;35m[K^[m[K
+[35.440s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:40[m[K:
+[35.441s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::[01;32m[KonCustomSampleDataDecoded[m[K(_u8, _u32, const void*, size_t)[m[K’:
+[35.448s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.449s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[35.453s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[35.454s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.459s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[35.460s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[35.465s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.469s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[35.476s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[35.477s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.483s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[35.491s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[35.492s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::[01;32m[KonDecodingError[m[K(int, _u8, const void*, size_t)[m[K’:
+[35.511s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.512s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[35.517s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[35.518s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.519s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[35.527s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[35.527s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.528s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[35.533s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[35.534s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/unpacker/../dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.538s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[35.539s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[36.763s] [ 55%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[37.041s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[37.052s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[37.060s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[37.061s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[37.065s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[37.066s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[37.067s]       |                [01;35m[K^[m[K
+[37.069s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[37.079s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[37.089s]       |                    [01;35m[K^[m[K
+[39.663s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[39.672s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[39.674s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[39.680s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[39.681s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[39.689s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[39.695s]       |                [01;35m[K^[m[K
+[39.703s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[39.718s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[39.720s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[39.721s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[39.726s]       |                    [01;35m[K^[m[K
+[40.255s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[40.267s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::[01;32m[Kcreate[m[K(thread_proc_t, void*)[m[K’:
+[40.279s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:52:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[40.289s]    52 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[40.298s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[40.299s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::[01;32m[Kjoin[m[K(long unsigned int)[m[K’:
+[40.300s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:176:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[40.308s]   176 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[40.308s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[41.733s] [ 60%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_async_transceiver.cpp.o[0m
+[43.579s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[43.584s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[43.589s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[43.590s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[43.599s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.601s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[43.602s]       |                [01;35m[K^[m[K
+[43.603s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[43.607s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[43.608s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[43.609s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[43.613s]       |                    [01;35m[K^[m[K
+[44.410s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::[01;32m[Kconnect[m[K(const char*, _u32, _u32)[m[K’:
+[44.414s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.419s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[44.420s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[44.426s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::[01;32m[Kreset[m[K(_u32)[m[K’:
+[44.428s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.432s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[44.433s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[44.439s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::[01;32m[KgetScanDataWithInterval[m[K(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[44.444s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.448s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[44.453s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[44.456s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[44.458s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[44.470s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[46.771s] [ 65%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[47.121s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[47.132s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[47.133s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[47.134s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[47.142s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[47.143s]       |                [01;35m[K^[m[K
+[47.152s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[47.157s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[47.163s]       |                    [01;35m[K^[m[K
+[47.652s] [ 70%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[50.482s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[50.492s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[50.513s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[50.515s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[50.520s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[50.526s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[50.528s]       |                [01;35m[K^[m[K
+[50.529s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[50.530s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[50.532s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[50.534s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[50.535s]       |                    [01;35m[K^[m[K
+[52.350s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_async_transceiver.cpp:44[m[K:
+[52.351s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::[01;32m[KonChannelError[m[K(u_result)[m[K’:
+[52.365s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[52.392s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[52.394s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[59.063s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[59.072s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[59.074s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[59.083s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[59.085s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[59.091s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[59.098s]       |                [01;35m[K^[m[K
+[59.106s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[59.107s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[59.113s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[59.117s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[59.123s]       |                    [01;35m[K^[m[K
+[62.955s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:50[m[K:
+[62.956s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::[01;32m[KonCustomSampleDataDecoded[m[K(_u8, _u32, const void*, size_t)[m[K’:
+[62.963s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.964s]    54 |         virtual void onCustomSampleDataDecoded([01;35m[K_u8 ansType[m[K, _u32 customCode, const void* data, size_t size) {}
+[62.969s]       |                                                [01;35m[K~~~~^~~~~~~[m[K
+[62.970s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KcustomCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.974s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, [01;35m[K_u32 customCode[m[K, const void* data, size_t size) {}
+[62.976s]       |                                                             [01;35m[K~~~~~^~~~~~~~~~[m[K
+[62.980s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:90:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.982s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, [01;35m[Kconst void* data[m[K, size_t size) {}
+[62.986s]       |                                                                              [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[62.987s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:54:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[62.989s]    54 |         virtual void onCustomSampleDataDecoded(_u8 ansType, _u32 customCode, const void* data, [01;35m[Ksize_t size[m[K) {}
+[62.993s]       |                                                                                                [01;35m[K~~~~~~~^~~~[m[K
+[62.998s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::LIDARSampleDataListener::[01;32m[KonDecodingError[m[K(int, _u8, const void*, size_t)[m[K’:
+[62.999s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrMsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.001s]    56 |         virtual void onDecodingError([01;35m[Kint errMsg[m[K, _u8 ansType, const void* payload, size_t size) {}
+[63.012s]       |                                      [01;35m[K~~~~^~~~~~[m[K
+[63.022s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KansType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.023s]    56 |         virtual void onDecodingError(int errMsg, [01;35m[K_u8 ansType[m[K, const void* payload, size_t size) {}
+[63.043s]       |                                                  [01;35m[K~~~~^~~~~~~[m[K
+[63.058s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.069s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, [01;35m[Kconst void* payload[m[K, size_t size) {}
+[63.070s]       |                                                               [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[63.086s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/dataunpacker/dataunpacker.h:56:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.092s]    56 |         virtual void onDecodingError(int errMsg, _u8 ansType, const void* payload, [01;35m[Ksize_t size[m[K) {}
+[63.097s]       |                                                                                    [01;35m[K~~~~~~~^~~~[m[K
+[63.111s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:51[m[K:
+[63.120s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::[01;32m[KonChannelError[m[K(u_result)[m[K’:
+[63.124s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.129s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[63.131s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[63.427s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::[01;32m[Kreset[m[K(sl_u32)[m[K’:
+[63.439s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:511:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.444s]   511 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[63.446s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[63.474s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::[01;32m[KstartScan[m[K(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[63.478s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:586:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.483s]   586 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[63.484s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[63.505s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::[01;32m[Kstop[m[K(sl_u32)[m[K’:
+[63.517s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:763:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.526s]   763 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[63.528s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[63.580s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::[01;32m[KgetFrequency[m[K(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[63.594s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:880:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.596s]   880 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[63.611s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[63.640s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::[01;32m[KgetMotorInfo[m[K(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[63.641s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1023:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.656s]  1023 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[63.662s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[63.673s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ku_result sl::SlamtecLidarDriver::[01;32m[KgetScanModeCount[m[K(sl_u16&, sl_u32)[m[K’:
+[63.685s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1199:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[63.695s]  1199 |         u_result getScanModeCount(sl_u16& modeCount, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[63.697s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[64.443s] /home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Kvoid sl::RawSampleNodeHolder<T>::[01;32m[KpushNode[m[K(_u64, const T*) [35m[K[with T = sl_lidar_response_measurement_node_hq_t; _u64 = long unsigned int][m[K[m[K’:
+[64.444s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1648:42:[m[K   required from here
+[64.454s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:202:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimestamp_uS[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[64.455s]   202 |         void pushNode([01;35m[K_u64 timestamp_uS[m[K, const T* node)
+[64.466s]       |                       [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+[65.886s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[65.887s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:83:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::[01;32m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[65.888s]    83 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[65.889s]       |                 [01;35m[K^~~~~~~[m[K
+[65.891s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:75:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::[01;32m[Kconvert[m[K(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[65.892s]    75 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+[65.894s]       |                 [01;35m[K^~~~~~~[m[K
+[65.896s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:70:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::[01;32m[KprintDeprecationWarn[m[K(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[65.897s]    70 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[65.898s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[76.237s] [ 75%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[77.643s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[77.644s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[77.648s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33[m[K:
+[77.648s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[77.649s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[77.649s]       |                [01;35m[K^[m[K
+[77.654s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[77.658s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[77.659s]       |                    [01;35m[K^[m[K
+[78.049s] [ 80%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[79.453s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[79.453s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[79.454s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[79.455s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[79.455s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[79.456s]       |                [01;35m[K^[m[K
+[79.457s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[79.458s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[79.459s]       |                    [01;35m[K^[m[K
+[79.482s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::[01;32m[KsetStatus[m[K(_u32)[m[K’:
+[79.483s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:109:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[79.483s]   109 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[79.484s]       |                        [01;35m[K~~~~~^~~~[m[K
+[79.766s] [ 85%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[81.161s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[81.162s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[81.163s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33[m[K:
+[81.164s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[81.164s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[81.165s]       |                [01;35m[K^[m[K
+[81.166s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[81.166s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[81.167s]       |                    [01;35m[K^[m[K
+[81.191s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::[01;32m[KsetStatus[m[K(_u32)[m[K’:
+[81.192s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_udp_channel.cpp:112:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[81.193s]   112 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[81.193s]       |                        [01;35m[K~~~~~^~~~[m[K
+[81.479s] [ 90%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
+[83.831s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[83.832s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[83.833s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[83.834s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[83.835s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[83.836s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[83.836s]       |                [01;35m[K^[m[K
+[83.837s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[83.838s]                  from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[83.839s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[83.839s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[83.840s]       |                    [01;35m[K^[m[K
+[84.382s] In file included from [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_lidarprotocol_codec.cpp:49[m[K:
+[84.383s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:[m[K In member function ‘[01m[Kvirtual void sl::internal::IAsyncProtocolCodec::[01;32m[KonChannelError[m[K(u_result)[m[K’:
+[84.384s] [01m[K/home/yusen/Autonomous-RC-Car/ws_autocar/src/sllidar_ros2/sdk/src/sl_async_transceiver.h:90:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KerrCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[84.384s]    90 |         virtual void   onChannelError([01;35m[Ku_result errCode[m[K) {}
+[84.385s]       |                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[84.894s] [ 95%] [32m[1mLinking CXX executable sllidar_node[0m
+[86.246s] [100%] [32m[1mLinking CXX executable sllidar_client[0m
+[87.421s] [100%] Built target sllidar_node
+[88.316s] [100%] Built target sllidar_client
+[88.378s] Invoked command in '/home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2 -- -j4 -l4
+[88.430s] Invoking command in '/home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2
+[88.474s] -- Install configuration: ""
+[88.476s] -- Execute custom install script
+[88.480s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[88.528s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[88.580s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[88.629s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[88.683s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[88.731s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[88.838s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[88.898s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[88.947s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[88.999s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[89.047s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[89.099s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[89.147s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[89.198s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[89.245s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[89.297s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[89.344s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[89.397s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[89.445s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[89.498s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[89.546s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[89.599s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[89.647s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[89.699s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[89.748s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[89.801s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[89.851s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[89.903s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[89.953s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[90.005s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[90.053s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[90.108s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[90.160s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[90.210s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[90.263s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[90.311s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[90.364s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[90.412s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[90.469s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[90.517s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[90.571s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[90.619s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[90.672s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[90.722s] -- Symlinking: /home/yusen/Autonomous-RC-Car/ws_autocar/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[90.784s] Invoked command in '/home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yusen/Autonomous-RC-Car/ws_autocar/build/sllidar_ros2
