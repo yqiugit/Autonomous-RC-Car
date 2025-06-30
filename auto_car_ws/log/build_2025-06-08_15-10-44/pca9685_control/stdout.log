@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/pca9685_control/pca9685_control.egg-info
+writing ../../build/pca9685_control/pca9685_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/pca9685_control/pca9685_control.egg-info/dependency_links.txt
+writing entry points to ../../build/pca9685_control/pca9685_control.egg-info/entry_points.txt
+writing requirements to ../../build/pca9685_control/pca9685_control.egg-info/requires.txt
+writing top-level names to ../../build/pca9685_control/pca9685_control.egg-info/top_level.txt
+writing manifest file '../../build/pca9685_control/pca9685_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/pca9685_control/pca9685_control.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/pca9685_control/pca9685_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yusen/auto_car/build/pca9685_control/build
+creating /home/yusen/auto_car/build/pca9685_control/build/lib
+creating /home/yusen/auto_car/build/pca9685_control/build/lib/pca9685_control
+copying pca9685_control/__init__.py -> /home/yusen/auto_car/build/pca9685_control/build/lib/pca9685_control
+copying pca9685_control/my_node.py -> /home/yusen/auto_car/build/pca9685_control/build/lib/pca9685_control
+running install
+running install_lib
+creating /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control
+copying /home/yusen/auto_car/build/pca9685_control/build/lib/pca9685_control/__init__.py -> /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control
+copying /home/yusen/auto_car/build/pca9685_control/build/lib/pca9685_control/my_node.py -> /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control
+byte-compiling /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control/my_node.py to my_node.cpython-312.pyc
+running install_data
+creating /home/yusen/auto_car/install/pca9685_control/share/ament_index
+creating /home/yusen/auto_car/install/pca9685_control/share/ament_index/resource_index
+creating /home/yusen/auto_car/install/pca9685_control/share/ament_index/resource_index/packages
+copying resource/pca9685_control -> /home/yusen/auto_car/install/pca9685_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/yusen/auto_car/install/pca9685_control/share/pca9685_control
+running install_egg_info
+Copying ../../build/pca9685_control/pca9685_control.egg-info to /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing my_node script to /home/yusen/auto_car/install/pca9685_control/lib/pca9685_control
+writing list of installed files to '/home/yusen/auto_car/build/pca9685_control/install.log'

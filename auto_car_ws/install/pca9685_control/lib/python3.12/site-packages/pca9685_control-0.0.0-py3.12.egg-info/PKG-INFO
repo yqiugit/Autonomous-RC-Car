@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pca9685-control
+Version: 0.0.0
+Summary: PCA9685 for ESC steering and throttle control
+Maintainer: yusen
+Maintainer-email: 20yq21@queensu.ca
+License: Apache-2.0
+License-File: LICENSE

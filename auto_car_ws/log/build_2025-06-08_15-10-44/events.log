@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000977] (pca9685_control) JobQueued: {'identifier': 'pca9685_control', 'dependencies': OrderedDict()}
+[0.002066] (pca9685_control) JobStarted: {'identifier': 'pca9685_control'}
+[0.099296] (-) TimerEvent: {}
+[0.200016] (-) TimerEvent: {}
+[0.300629] (-) TimerEvent: {}
+[0.401433] (-) TimerEvent: {}
+[0.502445] (-) TimerEvent: {}
+[0.603070] (-) TimerEvent: {}
+[0.703648] (-) TimerEvent: {}
+[0.804404] (-) TimerEvent: {}
+[0.905569] (-) TimerEvent: {}
+[1.007980] (-) TimerEvent: {}
+[1.109168] (-) TimerEvent: {}
+[1.211120] (-) TimerEvent: {}
+[1.312295] (-) TimerEvent: {}
+[1.414288] (-) TimerEvent: {}
+[1.516830] (-) TimerEvent: {}
+[1.618063] (-) TimerEvent: {}
+[1.719197] (-) TimerEvent: {}
+[1.820309] (-) TimerEvent: {}
+[1.921032] (-) TimerEvent: {}
+[2.021640] (-) TimerEvent: {}
+[2.122263] (-) TimerEvent: {}
+[2.222856] (-) TimerEvent: {}
+[2.323494] (-) TimerEvent: {}
+[2.424144] (-) TimerEvent: {}
+[2.524737] (-) TimerEvent: {}
+[2.625292] (-) TimerEvent: {}
+[2.725850] (-) TimerEvent: {}
+[2.826424] (-) TimerEvent: {}
+[2.927110] (-) TimerEvent: {}
+[3.027742] (-) TimerEvent: {}
+[3.128352] (-) TimerEvent: {}
+[3.229013] (-) TimerEvent: {}
+[3.329560] (-) TimerEvent: {}
+[3.430153] (-) TimerEvent: {}
+[3.532122] (-) TimerEvent: {}
+[3.633504] (-) TimerEvent: {}
+[3.736562] (-) TimerEvent: {}
+[3.840399] (-) TimerEvent: {}
+[3.943851] (-) TimerEvent: {}
+[4.048866] (-) TimerEvent: {}
+[4.151138] (-) TimerEvent: {}
+[4.253386] (-) TimerEvent: {}
+[4.356044] (-) TimerEvent: {}
+[4.457320] (-) TimerEvent: {}
+[4.562304] (-) TimerEvent: {}
+[4.664084] (-) TimerEvent: {}
+[4.765186] (-) TimerEvent: {}
+[4.865802] (-) TimerEvent: {}
+[4.971011] (-) TimerEvent: {}
+[5.075134] (-) TimerEvent: {}
+[5.176068] (-) TimerEvent: {}
+[5.276973] (-) TimerEvent: {}
+[5.377539] (-) TimerEvent: {}
+[5.478142] (-) TimerEvent: {}
+[5.578748] (-) TimerEvent: {}
+[5.679348] (-) TimerEvent: {}
+[5.780336] (-) TimerEvent: {}
+[5.881544] (-) TimerEvent: {}
+[5.984308] (-) TimerEvent: {}
+[6.035825] (pca9685_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/pca9685_control', 'build', '--build-base', '/home/yusen/auto_car/build/pca9685_control/build', 'install', '--record', '/home/yusen/auto_car/build/pca9685_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yusen/auto_car/src/pca9685_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yusen', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yusen', 'OLDPWD': '/home/yusen/auto_car/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2347', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yusen', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yusen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yusen-desktop:@/tmp/.ICE-unix/2307,unix/yusen-desktop:/tmp/.ICE-unix/2307', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/fca4e35c_decc_47ef_a4b6_33411b4dde2f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.8Y3T72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.163', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yusen/auto_car/build/pca9685_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yusen/auto_car/build/pca9685_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.084491] (-) TimerEvent: {}
+[6.185129] (-) TimerEvent: {}
+[6.285752] (-) TimerEvent: {}
+[6.386344] (-) TimerEvent: {}
+[6.488776] (-) TimerEvent: {}
+[6.590001] (-) TimerEvent: {}
+[6.691337] (-) TimerEvent: {}
+[6.792311] (-) TimerEvent: {}
+[6.893216] (-) TimerEvent: {}
+[6.993847] (-) TimerEvent: {}
+[7.095793] (-) TimerEvent: {}
+[7.196537] (-) TimerEvent: {}
+[7.297628] (-) TimerEvent: {}
+[7.399569] (-) TimerEvent: {}
+[7.501252] (-) TimerEvent: {}
+[7.604862] (-) TimerEvent: {}
+[7.707774] (-) TimerEvent: {}
+[7.810407] (-) TimerEvent: {}
+[7.911856] (-) TimerEvent: {}
+[8.014183] (-) TimerEvent: {}
+[8.119586] (-) TimerEvent: {}
+[8.221020] (-) TimerEvent: {}
+[8.327942] (-) TimerEvent: {}
+[8.429897] (-) TimerEvent: {}
+[8.534106] (-) TimerEvent: {}
+[8.636322] (-) TimerEvent: {}
+[8.743066] (-) TimerEvent: {}
+[8.852946] (-) TimerEvent: {}
+[8.954975] (-) TimerEvent: {}
+[9.061323] (-) TimerEvent: {}
+[9.064839] (pca9685_control) StdoutLine: {'line': b'running egg_info\n'}
+[9.071885] (pca9685_control) StdoutLine: {'line': b'creating ../../build/pca9685_control/pca9685_control.egg-info\n'}
+[9.163114] (-) TimerEvent: {}
+[9.266778] (-) TimerEvent: {}
+[9.368291] (-) TimerEvent: {}
+[9.473031] (-) TimerEvent: {}
+[9.574299] (-) TimerEvent: {}
+[9.682089] (-) TimerEvent: {}
+[9.783897] (-) TimerEvent: {}
+[9.888972] (-) TimerEvent: {}
+[9.997563] (-) TimerEvent: {}
+[10.093886] (pca9685_control) StdoutLine: {'line': b'writing ../../build/pca9685_control/pca9685_control.egg-info/PKG-INFO\n'}
+[10.098958] (-) TimerEvent: {}
+[10.107130] (pca9685_control) StdoutLine: {'line': b'writing dependency_links to ../../build/pca9685_control/pca9685_control.egg-info/dependency_links.txt\n'}
+[10.122750] (pca9685_control) StdoutLine: {'line': b'writing entry points to ../../build/pca9685_control/pca9685_control.egg-info/entry_points.txt\n'}
+[10.124081] (pca9685_control) StdoutLine: {'line': b'writing requirements to ../../build/pca9685_control/pca9685_control.egg-info/requires.txt\n'}
+[10.132828] (pca9685_control) StdoutLine: {'line': b'writing top-level names to ../../build/pca9685_control/pca9685_control.egg-info/top_level.txt\n'}
+[10.138280] (pca9685_control) StdoutLine: {'line': b"writing manifest file '../../build/pca9685_control/pca9685_control.egg-info/SOURCES.txt'\n"}
+[10.199130] (-) TimerEvent: {}
+[10.299839] (-) TimerEvent: {}
+[10.401118] (-) TimerEvent: {}
+[10.501819] (-) TimerEvent: {}
+[10.604493] (-) TimerEvent: {}
+[10.607134] (pca9685_control) StdoutLine: {'line': b"reading manifest file '../../build/pca9685_control/pca9685_control.egg-info/SOURCES.txt'\n"}
+[10.610409] (pca9685_control) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[10.614967] (pca9685_control) StdoutLine: {'line': b"writing manifest file '../../build/pca9685_control/pca9685_control.egg-info/SOURCES.txt'\n"}
+[10.619192] (pca9685_control) StdoutLine: {'line': b'running build\n'}
+[10.624752] (pca9685_control) StdoutLine: {'line': b'running build_py\n'}
+[10.628191] (pca9685_control) StdoutLine: {'line': b'creating /home/yusen/auto_car/build/pca9685_control/build\n'}
+[10.630339] (pca9685_control) StdoutLine: {'line': b'creating /home/yusen/auto_car/build/pca9685_control/build/lib\n'}
+[10.631854] (pca9685_control) StdoutLine: {'line': b'creating /home/yusen/auto_car/build/pca9685_control/build/lib/pca9685_control\n'}
+[10.633164] (pca9685_control) StdoutLine: {'line': b'copying pca9685_control/__init__.py -> /home/yusen/auto_car/build/pca9685_control/build/lib/pca9685_control\n'}
+[10.634470] (pca9685_control) StdoutLine: {'line': b'copying pca9685_control/my_node.py -> /home/yusen/auto_car/build/pca9685_control/build/lib/pca9685_control\n'}
+[10.636540] (pca9685_control) StdoutLine: {'line': b'running install\n'}
+[10.675880] (pca9685_control) StdoutLine: {'line': b'running install_lib\n'}
+[10.704679] (-) TimerEvent: {}
+[10.805441] (-) TimerEvent: {}
+[10.839112] (pca9685_control) StdoutLine: {'line': b'creating /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control\n'}
+[10.839725] (pca9685_control) StdoutLine: {'line': b'copying /home/yusen/auto_car/build/pca9685_control/build/lib/pca9685_control/__init__.py -> /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control\n'}
+[10.840116] (pca9685_control) StdoutLine: {'line': b'copying /home/yusen/auto_car/build/pca9685_control/build/lib/pca9685_control/my_node.py -> /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control\n'}
+[10.844317] (pca9685_control) StdoutLine: {'line': b'byte-compiling /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control/__init__.py to __init__.cpython-312.pyc\n'}
+[10.844925] (pca9685_control) StdoutLine: {'line': b'byte-compiling /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control/my_node.py to my_node.cpython-312.pyc\n'}
+[10.845584] (pca9685_control) StdoutLine: {'line': b'running install_data\n'}
+[10.846565] (pca9685_control) StdoutLine: {'line': b'creating /home/yusen/auto_car/install/pca9685_control/share/ament_index\n'}
+[10.847472] (pca9685_control) StdoutLine: {'line': b'creating /home/yusen/auto_car/install/pca9685_control/share/ament_index/resource_index\n'}
+[10.848449] (pca9685_control) StdoutLine: {'line': b'creating /home/yusen/auto_car/install/pca9685_control/share/ament_index/resource_index/packages\n'}
+[10.849578] (pca9685_control) StdoutLine: {'line': b'copying resource/pca9685_control -> /home/yusen/auto_car/install/pca9685_control/share/ament_index/resource_index/packages\n'}
+[10.850777] (pca9685_control) StdoutLine: {'line': b'copying package.xml -> /home/yusen/auto_car/install/pca9685_control/share/pca9685_control\n'}
+[10.851417] (pca9685_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.905683] (-) TimerEvent: {}
+[10.995045] (pca9685_control) StdoutLine: {'line': b'Copying ../../build/pca9685_control/pca9685_control.egg-info to /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control-0.0.0-py3.12.egg-info\n'}
+[11.000445] (pca9685_control) StdoutLine: {'line': b'running install_scripts\n'}
+[11.005833] (-) TimerEvent: {}
+[11.106378] (-) TimerEvent: {}
+[11.207022] (-) TimerEvent: {}
+[11.307569] (-) TimerEvent: {}
+[11.408179] (-) TimerEvent: {}
+[11.508758] (-) TimerEvent: {}
+[11.609339] (-) TimerEvent: {}
+[11.709948] (-) TimerEvent: {}
+[11.783622] (pca9685_control) StdoutLine: {'line': b'Installing my_node script to /home/yusen/auto_car/install/pca9685_control/lib/pca9685_control\n'}
+[11.785206] (pca9685_control) StdoutLine: {'line': b"writing list of installed files to '/home/yusen/auto_car/build/pca9685_control/install.log'\n"}
+[11.810217] (-) TimerEvent: {}
+[11.911132] (-) TimerEvent: {}
+[11.948770] (pca9685_control) CommandEnded: {'returncode': 0}
+[11.992205] (pca9685_control) JobEnded: {'identifier': 'pca9685_control', 'rc': 0}
+[11.995260] (-) EventReactorShutdown: {}

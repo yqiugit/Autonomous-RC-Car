@@ -1,0 +1,25 @@
+[4.457s] Invoking command in '/home/yusen/auto_car/src/pca9685_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yusen/auto_car/build/pca9685_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pca9685_control build --build-base /home/yusen/auto_car/build/pca9685_control/build install --record /home/yusen/auto_car/build/pca9685_control/install.log --single-version-externally-managed install_data
+[5.857s] running egg_info
+[5.963s] writing ../../build/pca9685_control/pca9685_control.egg-info/PKG-INFO
+[5.964s] writing dependency_links to ../../build/pca9685_control/pca9685_control.egg-info/dependency_links.txt
+[5.978s] writing entry points to ../../build/pca9685_control/pca9685_control.egg-info/entry_points.txt
+[5.991s] writing requirements to ../../build/pca9685_control/pca9685_control.egg-info/requires.txt
+[5.998s] writing top-level names to ../../build/pca9685_control/pca9685_control.egg-info/top_level.txt
+[6.224s] reading manifest file '../../build/pca9685_control/pca9685_control.egg-info/SOURCES.txt'
+[6.225s] adding license file 'LICENSE'
+[6.227s] writing manifest file '../../build/pca9685_control/pca9685_control.egg-info/SOURCES.txt'
+[6.229s] running build
+[6.229s] running build_py
+[6.231s] running install
+[6.260s] running install_lib
+[6.373s] running install_data
+[6.374s] copying package.xml -> /home/yusen/auto_car/install/pca9685_control/share/pca9685_control
+[6.375s] running install_egg_info
+[6.486s] removing '/home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control-0.0.0-py3.12.egg-info' (and everything under it)
+[6.489s] Copying ../../build/pca9685_control/pca9685_control.egg-info to /home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages/pca9685_control-0.0.0-py3.12.egg-info
+[6.497s] running install_scripts
+[7.302s] Installing listener script to /home/yusen/auto_car/install/pca9685_control/lib/pca9685_control
+[7.302s] Installing my_node script to /home/yusen/auto_car/install/pca9685_control/lib/pca9685_control
+[7.305s] Installing talker script to /home/yusen/auto_car/install/pca9685_control/lib/pca9685_control
+[7.309s] writing list of installed files to '/home/yusen/auto_car/build/pca9685_control/install.log'
+[7.476s] Invoked command in '/home/yusen/auto_car/src/pca9685_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yusen/auto_car/build/pca9685_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yusen/auto_car/install/pca9685_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pca9685_control build --build-base /home/yusen/auto_car/build/pca9685_control/build install --record /home/yusen/auto_car/build/pca9685_control/install.log --single-version-externally-managed install_data

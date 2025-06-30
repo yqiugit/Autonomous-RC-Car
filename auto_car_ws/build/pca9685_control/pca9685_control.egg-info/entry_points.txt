@@ -1,0 +1,4 @@
+[console_scripts]
+listener = pca9685_control.subscriber_member_function:main
+my_node = pca9685_control.my_node:main
+talker = pca9685_control.publisher_member_function:main
